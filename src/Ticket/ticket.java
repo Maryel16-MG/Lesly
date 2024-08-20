@@ -9,7 +9,7 @@ package Ticket;
  * @author Student
  */
 public class ticket {
-    private int NumeroTicket;
+    public int NumeroTicket;
     private String Tipo;
 
     public int getNumeroTicket() {

@@ -4,6 +4,7 @@
  */
 package listaTicket;
 
+import Ticket.ticket;
 import java.util.ArrayList;
 
 /**
@@ -11,15 +12,19 @@ import java.util.ArrayList;
  * @author Student
  */
 public class listaticket {
-   ArrayList<Ticket> ticket = new ArrayList<>(); 
-    private int String;
+   ArrayList<ticket> ticket = new ArrayList<>(); 
     private int Ticket;
+
+   
   
    public void addList(){
-   ticket.add(this.String);
+   ticket.add(this.Ticket);
    }
     public void deleteList(){
     ticket.remove(this.Ticket);
+   }
+   public void buscar(){
+
    }
 }
 
