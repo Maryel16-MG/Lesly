@@ -11,7 +11,7 @@ import java.util.ArrayList;
  * @author Student
  */
 public class listaticket {
-   ArrayList<String> List = new ArrayList<>(); 
+   ArrayList<Ticket> List = new ArrayList<>(); 
     private int String;
   
    public void addList(){
