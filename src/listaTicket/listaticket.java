@@ -11,14 +11,15 @@ import java.util.ArrayList;
  * @author Student
  */
 public class listaticket {
-   ArrayList<Ticket> List = new ArrayList<>(); 
+   ArrayList<Ticket> ticket = new ArrayList<>(); 
     private int String;
+    private int Ticket;
   
    public void addList(){
-    List.add(this.String);
+   ticket.add(this.String);
    }
     public void deleteList(){
-    List.remove(this.String);
+    ticket.remove(this.Ticket);
    }
 }
 
